@@ -1,0 +1,64 @@
+/* *{margin:0;padding:0;box-sizing:border-box;font-size:0;}*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 10;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 5;
+  width: 98%;
+  height: 35px;
+  color: white;
+}
+
+footer p { text-align: center; }
+	
+h1{
+    height: 50px;
+    background-color: #EEE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    }
+	
+nav li{
+    display:inline-block;
+    width: 20%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+	
+.boton { width:111px; height:35px; } 
+
+#titulo {text-align: center; border: solid 2px; color:red;}
+
+#subtitulo {text-align: center; color: blue; font-style: bold;}
+
+#loguin {margin:left; width:341px; padding:15px; border:1px solid; border-radius:1px;}
+
+#errorLoguin {text-align: left; color: red; font-style: italic;}
+
+#sesion {text-align: right; color: blue; font-style: italic;}
+
+#controlPatente {text-align: left; color: red; font-style: italic;}

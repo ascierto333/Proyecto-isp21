@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+.body{
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:100% 100%;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+	cursor: url(../Img/cursorpro.png)30 30, auto;
+
+}
+
+
+.fuentecolor{  
+	text-shadow: #990 2px 2px 2px;
+	color: #000012;
+	font-family: "Arial Black", Gadget, sans-serif;	
+		}
+
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: medium;
+}
+
+.section
+{
+	width: 100%;
+	margin:15px auto;
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;  
+	justify-content: center;
+	align-content: space-around; 
+	
+	
+	
+
+	}
+
+.figure
+{			
+	padding: 5px;
+	background:rgb(7, 0, 0);
+	border-radius: 20px; 
+	box-shadow:rgb(58, 58, 58)  8px 8px 15px; 
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s; 
+	-moz-transition:-moz-transform 0.3s ease-in-out 0.1s; 
+	-ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
+
+}
+
+.figure img{
+			
+	padding: 5px; 
+	background:#666;
+	border-radius: 20px;
+	box-shadow:#000000 8px 8px 12px; 
+	-webkit-transition:-webkit-transform 0.9s ease-in-out 0.9s; 
+	-moz-transition:-moz-transform 0.9s ease-in-out 0.9s; 
+	-ms-transition:-ms-transform 0.9s ease-in-out 0.9s;
+
+}
+
+.figure:hover{
+-webkit-transform:scale(1.2); 
+-moz-transform:scale(1.2);
+-ms-transform:scale(1.2);	
+cursor: url(../Img/cursorpro.png)30 30, auto;
+
+}
+.figcaption{
+	
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size: 1em; 
+	margin-top: 10px; 
+	padding-right: 10px;
+	
+
+}
+.footer{
+	width: 100%;
+	font-style:italic;
+	text-align: right;	
+	padding-top:10px;
+	margin-top: 30px; 
+	
+	
+	}
+
+	.table{
+		background-color: #000012;
+		background-repeat: no-repeat;
+		background-size: cover;
+		flex-direction: row;
+		flex-wrap: wrap;
+		}
+
+		
+		.caja {
+			background-color:rgb(180, 178, 178);
+			margin:20px auto 40px auto;	
+			border:1px solid #d9d9d9;
+			height:30px;
+			overflow: hidden;
+			width: 230px;
+			position:relative;
+			padding-top:7px;
+		 }
+		 select {
+			background: transparent;
+			background-color:#666;
+			border: none;
+			font-size: 14px;
+			height: 30px;
+			padding: 5px;
+			width: 250px;
+		 }
+		 select:focus{ outline: none;}
+		 
+		 .caja::after{
+			 content:"\025be";
+			 display:table-cell;
+			 padding-top:7px;
+			 width:30px;
+			 height:30px;
+			 background-color:#666;
+			 position:absolute;
+			 top:13px;
+			 right:13px;
+			 pointer-events: none;
+		 }

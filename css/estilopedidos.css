@@ -1,0 +1,104 @@
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+
+
+
+input{
+  background-color: #d1c9c9; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #785406; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+
+
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+.button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #5d93c0; 
+  border-color: #cf6c09; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+	cursor: url(../Img/cursorpro.png)30 30, auto;
+
+}
+
+
+button p{
+  color: rgb(217, 11, 11); 
+}
+
+
+span{
+  color: #e80a0a; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #0a0a0a;
+}
+
+
+p{
+  font-size: 14px; 
+  color: #050300; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #d6d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #df8f05;
+}
+
+
+.tablon{
+border: #0a0a0a; 
+border-radius: 1px;  
+}
